@@ -1,0 +1,59 @@
+.btn {
+  padding: 0.7rem 1.4rem;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+.btn-primary {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  line-height: 20px;
+  background-color: #ff2c1f;
+  border: 0;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #ff2c1f;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #ff2c1f;
+  pointer-events: all;
+  cursor: not-allowed;
+}
+
+.btn-primary.disabled:hover {
+  background-color: #fff;
+  color: #ff2c1f;
+}
+
+.tm-mb-90 {
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.tm-paging-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 1.1rem;
+  color: #999;
+  background-color: #eeeeee;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.tm-paging-link:hover,
+.tm-paging-link.active {
+  background-color: #ff2c1f;
+  color: #fff;
+}
